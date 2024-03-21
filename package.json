@@ -1,0 +1,21 @@
+{
+	"name": "wtr.sh",
+	"private": true,
+	"description": "H2O sh, version 6.4.25(18)-release-(any-mozila-applewebkit-chrome)",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host --open --port 3000",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/H2Owater425/wtr.sh.git"
+	},
+	"author": "H2Owater425 <h2o@h2owr.xyz>",
+	"devDependencies": {
+		"typescript": "^5.2.2",
+		"vite": "^5.1.4"
+	}
+}

@@ -1,0 +1,26 @@
+body {
+	padding: 4px;
+	background-color: #282c34;
+	color: #dcdfe4;
+}
+
+#output, #input {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+#input::after {
+	content: '⎸';
+	position: relative;
+	top: -2px;
+	left: 1px;
+	font-size: 16px;
+}
+
+#overlay {
+	position: fixed;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
