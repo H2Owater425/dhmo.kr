@@ -30,21 +30,6 @@ jobs:
       with:
         path: build
 
-  report:
-    needs: build
-
-    runs-on: ubuntu-latest
-
-    env:
-      GH_TOKEN: ${{ github.token }}
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Report build status
-        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/telemetry" -F github_run_id="$GITHUB_RUN_ID" -F conclusion="$CONCLUSION"
-
   deploy:
     needs: build
     
