@@ -25,8 +25,7 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Upload artifect
+      uses: actions/upload-artifact@v3
       with:
-        github_token: ${{ secrets.TOKEN }}
-        publish_dir: ./build
+        path: build
