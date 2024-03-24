@@ -471,7 +471,7 @@ export class Shell {
 	}
 
 	#focus(): void {
-		this.#input.scrollIntoView(true);
+		this.#input.scrollIntoView(false);
 		this.#overlay.focus();
 
 		return;
