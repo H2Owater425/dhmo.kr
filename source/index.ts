@@ -18,5 +18,15 @@ if(output !== null && input !== null && overlay !== null) {
 			throw new ShellError(['Usage: clear']);
 		}
 	}, 'clear', ['    Clears screen if this is possible, including its scrollback',
-	'    buffer.']))
+	'    buffer.']));
+
+	shell.register('whoami', new ShellCommand(function (this: Shell, _arguments: string[]): void {
+		if(_arguments['length'] === 1) {
+			this.puts(this.getenv('USER'));
+
+			return;
+		} else {
+			throw new ShellError(['Usage: whoami']);
+		}
+	}, 'whoami', ['   Print the user name associated with the current effective user ID.']));
 }
