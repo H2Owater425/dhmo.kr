@@ -13,7 +13,7 @@
 		"type": "git",
 		"url": "git+https://github.com/H2Owater425/wtr.sh.git"
 	},
-	"author": "H2Owater425 <h2o@h2owr.xyz>",
+	"author": "H2Owater425 <h2o@dhmo.kr>",
 	"devDependencies": {
 		"typescript": "^5.2.2",
 		"vite": "^5.1.4"
