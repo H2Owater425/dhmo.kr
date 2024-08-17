@@ -366,6 +366,9 @@ export class Shell {
 						}
 					}
 
+					if(typeof(line) !== 'undefined') {
+						this.puts(line.trimEnd());
+					}
 
 					break;
 				}
