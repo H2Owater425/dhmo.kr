@@ -22,7 +22,7 @@ if(output !== null && input !== null && overlay !== null) {
 
 	shell.register('whoami', new ShellCommand(function (this: Shell, _arguments: string[]): void {
 		if(_arguments['length'] === 1) {
-			this.puts(this.getenv('USER'));
+			this.puts(this.getenv('USER') as string);
 
 			return;
 		} else {
