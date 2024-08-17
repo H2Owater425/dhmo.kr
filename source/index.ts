@@ -20,6 +20,16 @@ if(output !== null && input !== null && overlay !== null) {
 	}, 'clear', ['    Clears screen if this is possible, including its scrollback',
 	'    buffer.']));
 
+	shell.register('certificate', new ShellCommand(function (this: Shell, _arguments: string[]): void {
+		if(_arguments['length'] === 1) {
+			this.puts('National Technical Certificates:', '  Craftsman Information Processing (2024.07.10)', 'Private Qualifications:', '  Linux Master Level-Ⅱ            (2022.12.30)');
+
+			return;
+		} else {
+			throw new ShellError(['Usage: certificate']);
+		}
+	}, 'certificate', ['   Print the certificates acquired by H2Owater425.']));
+
 	shell.register('whoami', new ShellCommand(function (this: Shell, _arguments: string[]): void {
 		if(_arguments['length'] === 1) {
 			this.puts(this.getenv('USER') as string);
