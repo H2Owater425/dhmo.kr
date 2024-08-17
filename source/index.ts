@@ -102,6 +102,12 @@ if(output !== null && input !== null && overlay !== null) {
 					break;
 				}
 
+				case 'chzim': {
+					window.open('https://chz.im/', '_blank');
+
+					break;
+				}
+
 				case 'forgor': {
 					window.open('https://forgor.sk/', '_blank');
 
@@ -126,5 +132,6 @@ if(output !== null && input !== null && overlay !== null) {
 	'      x',
 	'      steam',
 	'      mochive',
+	'      chzim',
 	'      forgor']));
 }
