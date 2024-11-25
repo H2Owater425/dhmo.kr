@@ -1,7 +1,7 @@
 {
 	"name": "dhmo.kr",
 	"private": true,
-	"description": "H2O sh, version 6.4.25(18)-release-(any-mozila-applewebkit-chrome)",
+	"description": "H2O sh, version 6.4.25(18)-release-(unknown-mozila-applewebkit-chrome)",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
