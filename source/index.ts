@@ -45,15 +45,15 @@ if(output !== null && input !== null && overlay !== null) {
 			this.puts('👋 Hello, stranger!',
 			'',
 			'I\'m H2Owater425, also known as KKM, which are my initials.',
-			'Currently, I\'m a senior in the Web Programming Department at Korea Digital Media High School. 👨‍🎓👨‍💻',
+			'Currently, I\'m a freshman in the Department of Software Convergence at Kyung Hee University. 👨‍🎓👨‍💻',
 			'My programming skills aren\'t the best, but I\'m a very passionate programmer!',
 			'Perhaps I could show you something as time goes on...',
 			'Anyway, have a nice day! ☀️',
 			'',
 			'Contacts 📫',
-			'- Discord: 물워터#7826',
+			'- Discord: h2owater425',
 			'- Twitter: @H2Owater425',
-			'- Email: h2o@dhmo.kr, me@kangmin.kim')
+			'- Email: h2o@dhmo.kr, me@kangmin.kim');
 
 			return;
 		} else {
